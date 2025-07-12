@@ -1,0 +1,119 @@
+/*shared style*/
+.merriweather-normal{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.colour-1{
+   color: #FF0000;
+}
+.black-2{
+    color: #070211;
+}
+
+/*nav style*/
+nav{
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+nav ul{
+    display: flex;
+    gap: 35px;
+}
+nav li{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: #FF0000;
+}
+nav li:hover{
+    background-color: pink;
+}
+
+/*banner style part*/
+.banner{
+    background: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url('../images/Banner\ Image.png') center/cover no-repeat;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+ .internal-banner{
+    padding: 120px 324px;
+    font-weight: lighter;
+    filter: brightness(100%);
+ }
+
+ /*discount part*/
+ .discount{
+    margin-top: 100px;
+    margin: auto;
+    max-width: 802px;
+    max-height: 809px;
+    margin-bottom: 120px;
+ }
+ .context h2, p, h3{
+    text-align: center;
+}
+.context h2{
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.context p{
+    font-size: 24px;
+}
+.context h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+ .discount img{
+    max-width: 802px;
+    height: 501px;
+ }
+
+ /*midnight party section*/
+ .mid-party{
+    background: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), 
+        url('../images/Vectorrr.png') center/cover no-repeat;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 120px;
+ }
+ .content{
+    margin-left: 110px;
+ }
+ 
+ .content h3{
+    font-size: 64px;
+    color: #FFFFFF;
+ }
+ .content p{
+    font-size: 18px;
+    color: #FFFFFF;
+ }
+ .content-btn{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+ }
+
+
+ 
